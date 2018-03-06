@@ -332,6 +332,9 @@
     -->
 
     <!-- Preference title -->
+    <string name="on_device_connected_preference">Vibrate on Device Connect/Disconnect</string>
+
+    <!-- Preference title -->
     <string name="delete_all_cards_preference">Delete All Cards</string>
 
 

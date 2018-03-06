@@ -10,8 +10,12 @@
 
     </PreferenceCategory>
 
-
     <PreferenceCategory android:title="@string/wallet_settings_preference">
+
+        <CheckBoxPreference
+            android:key="pref_key_on_device_connected_vibrate"
+            android:title="@string/on_device_connected_preference"
+            android:defaultValue="true"/>
 
         <com.bugfuzz.android.projectwalrus.ui.DeleteAllCardsPreference android:title="@string/delete_all_cards_preference"/>
 
