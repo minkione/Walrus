@@ -1,0 +1,25 @@
+Start App
+Plug in device proxmark
+Check device settings for new device
+Add card from proxmark using single read
+View card
+Edit card
+Write card
+Emulate card
+Duplicate card
+Search card
+Delete card
+
+Add cards from proxmark using bulk read
+Test vibrate setting - on card read
+Stop bulk read mode
+View card
+Write card
+Emulate card
+Delete all cards 
+
+Test vibrate setting - on device disconnect
+Disconnect device
+
+Plug in Chameleon mini and repeat
+Test card slot emulation (1-8 or just a few)
