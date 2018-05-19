@@ -133,7 +133,7 @@ public class ISO14443ACardData extends CardData {
 
     @Override
     public String getHumanReadableText() {
-        return uid.toString(16);
+        return MiscUtils.bytesToHex(uid.toByteArray(), false);
     }
 
     @Override
