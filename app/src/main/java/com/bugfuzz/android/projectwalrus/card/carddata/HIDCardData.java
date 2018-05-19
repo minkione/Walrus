@@ -88,6 +88,7 @@ public class HIDCardData extends CardData implements ComponentSourceAndSink {
         this.dataBinaryFormatId = dataBinaryFormatId;
     }
 
+    // TODO: separate out start sentinels?
     public static void setup(Context context) {
         String facilityCode = context.getString(R.string.hid_facility_code);
         String cardNumber = context.getString(R.string.hid_card_number);
